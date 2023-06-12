@@ -1,0 +1,31 @@
+- O que o cliente deseja que seja mostrado
+1. Faturamento total e por mês --ok
+2. Filtrar por marca (gatito e doguito)
+3. Visualizar os produtos disponíveis
+4. Gênero que mais compra na loja --ok
+5. Média de pets dos clientes --ok
+6. Nova loja, mapeamento por locais --ok
+
+-Bases de dados
+1. Clientes em formato de txt
+2. Produtos no google sheets
+3. Vendas (2018, 2019, 2020) no excel
+
+
+
+Fórmula DAX
+
+
+* Criando tabela com Python
+
+import pandas as pd
+Cadastro = pd.DataFrame({
+    'Nome':['David', 'Igor','Julia','Helô','Karoline','Allan','Thiago'],
+    'Idade':[21,34,42,18,24,53,22],
+    'Genero':['M','M','F','F','F','M','M'],
+    'Estado':['SP','RJ','ES','RJ','SP','ES','SP'],
+    'Filhos':[4,1,2,3,0,2,0],
+    'Pets':[3,2,2,5,0,1,5]
+})
+
+*
